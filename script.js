@@ -1,25 +1,35 @@
-// Array of emoji clues and corresponding answers
-const emojiClues = {
-    "🍕🍔🍟": "fast food",
-    "📚🏫🎓": "school",
-    "🎥🍿🎬": "movie",
-    "🎄🎁🎅": "Christmas"
+// Define categories and corresponding emoji clues
+const categories = {
+    "Food": {
+       "🍕🍔🍟": "fast food",
+        "🍰🎂🍦": "dessert",
+        "🥗🍅🥒": "salad",
+        // Add more food-related emoji clues here
+    },
+    "Animals": {
+        "🐶🐱🐭": "pets",
+        "🐦🦆🦅": "birds",
+        "🐠🐟🐡": "fish",
+        // Add more animal-related emoji clues here
+    },
+    "Activities": {
+        "⚽🏀🎾": "sports",
+        "🎨🖌️🖼️": "art",
+        "🎵🎸🎤": "music",
+        // Add more activity-related emoji clues here
+    }
+    // Add more categories with emoji clues as needed
 };
 
-// Select random emoji clue and display it
+// Select a random category
+const categoryKeys = Object.keys(categories);
+const randomCategory = categoryKeys[Math.floor(Math.random() * categoryKeys.length)];
+
+// Select a random emoji clue from the chosen category
+const emojiClues = categories[randomCategory];
 const emojiKeys = Object.keys(emojiClues);
 const randomKey = emojiKeys[Math.floor(Math.random() * emojiKeys.length)];
-document.getElementById('emoji-clues').textContent = randomKey;
 
-// Function to check user's guess
-document.getElementById('check-button').addEventListener('click', function() {
-    const userGuess = document.getElementById('guess-input').value.trim().toLowerCase();
-    const answer = emojiClues[randomKey].toLowerCase();
-    const result = document.getElementById('result');
-    
-    if (userGuess === answer) {
-        result.textContent = "Correct! 🎉";
-    } else {
-        result.textContent = "Incorrect! Try again. 😞";
-    }
-});
+// Display the selected category and emoji clue
+document.getElementById('category').textContent = randomCategory;
+document.getElementById('emoji-clues').textContent = randomKey;
