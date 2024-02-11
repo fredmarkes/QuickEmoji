@@ -12,32 +12,32 @@ const categories = {
         "🚷🎢🔍": "The Zone of Interest"
     },
     "Best Actor in a Leading Role": {
-        "🎭🎹👨‍🦱": "Bradley Cooper in Maestro",
-        "🎭👨🏾🤵": "Colman Domingo in Rustin",
-        "🎭🚗🔙": "Paul Giamatti in The Holdovers",
-        "🎭👨‍🔬💣": "Cillian Murphy in Oppenheimer",
-        "🎭🇺🇸📚": "Jeffrey Wright in American Fiction"
+        "👨🧥🎵": "Bradley Cooper in Maestro",
+        "🥶👨⛪🤵": "Colman Domingo in Rustin",
+        "👨🍇🚗🔙": "Paul Giamatti in The Holdovers",
+        "👨🔬👨‍🔬💣": "Cillian Murphy in Oppenheimer",
+        "👨➡️🇺🇸📚": "Jeffrey Wright in American Fiction"
     },
     "Best Actress in a Leading Role": {
-        "🎭🏊‍♀️🌊": "Annette Bening in Nyad",
-        "🎭🔫🌸": "Lily Gladstone in Killers of the Flower Moon",
-        "🎭🩺🍂": "Sandra Hüller in Anatomy of a Fall",
-        "🎭🎼👩‍🦱": "Carey Mulligan in Maestro",
-        "🎭💰📉": "Emma Stone in Poor Things"
+        "👧🌱🎩🛠️🏊‍♀️🌊": "Annette Bening in Nyad",
+        "🌸😊🪨🔫🌸🌙": "Lily Gladstone in Killers of the Flower Moon",
+        "👩🚀🩺🍂": "Sandra Hüller in Anatomy of a Fall",
+        "🚗👁️🐴🔫🎼👩‍🦱": "Carey Mulligan in Maestro",
+        "👩🪨💰📉": "Emma Stone in Poor Things"
     },
     "Best Actor in a Supporting Role": {
-        "🎭🇺🇸📚": "Sterling K. Brown in American Fiction",
-        "🎭🔫🌸🌕": "Robert De Niro in Killers of the Flower Moon",
-        "🎭👨‍🔬💣": "Robert Downey Jr. in Oppenheimer",
-        "🎭👱‍♂️👸🎀": "Ryan Gosling in Barbie",
-        "🎭💰📉": "Mark Ruffalo in Poor Things"
+        "💰🅺🟫🇺🇸📚": "Sterling K. Brown in American Fiction",
+        "👨🇫🇷🎬🔫🌸🌕": "Robert De Niro in Killers of the Flower Moon",
+        "👨⬇️👦🏻👨‍🔬💣": "Robert Downey Jr. in Oppenheimer",
+        "👨🐦👸🎀": "Ryan Gosling in Barbie",
+        "👨🐾💰📉": "Mark Ruffalo in Poor Things"
     },
     "Best Actress in a Supporting Role": {
-        "🎭👩‍🔬💣": "Emily Blunt in Oppenheimer",
-        "🎭🎨💜": "Danielle Brooks in The Color Purple",
-        "🎭👸🎀": "America Ferrera in Barbie",
-        "🎭🏊‍♀️🌊": "Jodie Foster in Nyad",
-        "🎭🚗🔙": "Da'Vine Joy Randolph in The Holdovers"
+        "👩🔪👩‍🔬💣": "Emily Blunt in Oppenheimer",
+        "👩🌳🎨💜": "Danielle Brooks in The Color Purple",
+        "🇺🇸🍇👸🎀": "America Ferrera in Barbie",
+        "👩🏡🏊‍♀️🌊": "Jodie Foster in Nyad",
+        "🍇😊🎠🚗🔙": "Da'Vine Joy Randolph in The Holdovers"
     },
     "Best Animated Feature Film": {
         "🧑‍👦🦢🎬": "The Boy and the Heron",
